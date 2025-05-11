@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f8f4f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+h1 {
+  text-align: center;
+  color: #9e3d3d;
+}
+
+form label, fieldset {
+  display: block;
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  text-align: center;
+  margin-top: 25px;
+  color: #333;
+  font-size: 24px;
+}
